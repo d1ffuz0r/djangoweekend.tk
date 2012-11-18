@@ -1,0 +1,108 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: url(../img/bg.png);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+}
+.header h1 {
+    font: 70px BebasNeue;
+}
+.header a {
+    color: #234F32;
+}
+.header h2 {
+    font: 30px BebasNeue;
+}
+
+.logo {
+    width: 448px;
+    margin: 0 auto;
+}
+.logo h1,
+.logo h2 {
+    margin: 0;
+    color: #234f32;
+}
+.logo h1 {
+    font: 171px BebasNeue;
+    line-height: 147px;
+    height:141px;
+}
+.outer {
+    border-radius: 13px;
+    padding: 10px;
+    background: #4a769b;
+}
+.inner {
+    border-radius: 13px;
+    background: #ffcc66;
+}
+
+
+label {
+    font-family: BebasNeue;
+}
+
+#subscribe {
+    text-align: center;
+}
+#subscribe ul {
+    list-style: none;
+}
+#subscribe label,
+#subscribe input {
+    font-size: 30px;
+}
+
+#subscribebtn {
+    border-radius: 5px;
+    border: 3px solid #4a769b;
+    background: #f0c653;
+    font: 33px BebasNeue;
+    color: #234f32;
+    cursor: pointer;
+}
+
+.errorlist{
+    color: red;
+}
+
+.split {
+    margin: 50px 0 50px;
+}
+
+#success {
+    margin: 50px 0 0;
+}
+.footer {
+    font: 18px BebasNeue;
+}
+.footer a {
+    color: #234F32;
+}
